@@ -94,6 +94,9 @@
 		B5DE02902B52E5D3006411D8 /* Nofein */ = {
 			isa = PBXGroup;
 			children = (
+				B5DE02BD2B52E9BE006411D8 /* Model */,
+				B5DE02BC2B52E9B5006411D8 /* View */,
+				B5DE02BB2B52E9AE006411D8 /* ViewModel */,
 				B5DE02912B52E5D3006411D8 /* NofeinApp.swift */,
 				B5DE02932B52E5D3006411D8 /* ContentView.swift */,
 				B5DE02952B52E5D5006411D8 /* Assets.xcassets */,
@@ -125,6 +128,27 @@
 				B5DE02AE2B52E5D5006411D8 /* NofeinUITestsLaunchTests.swift */,
 			);
 			path = NofeinUITests;
+			sourceTree = "<group>";
+		};
+		B5DE02BB2B52E9AE006411D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5DE02BC2B52E9B5006411D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5DE02BD2B52E9BE006411D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
