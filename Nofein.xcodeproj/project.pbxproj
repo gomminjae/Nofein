@@ -18,6 +18,7 @@
 		B5DE02C12B52F1F7006411D8 /* Caffeine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C02B52F1F7006411D8 /* Caffeine.swift */; };
 		B5DE02C32B52F2E8006411D8 /* CoffeeCupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C22B52F2E8006411D8 /* CoffeeCupView.swift */; };
 		B5DE02C52B52F3BD006411D8 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C42B52F3BD006411D8 /* LaunchView.swift */; };
+		B5DE02C72B53A770006411D8 /* WaveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C62B53A770006411D8 /* WaveEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		B5DE02C02B52F1F7006411D8 /* Caffeine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caffeine.swift; sourceTree = "<group>"; };
 		B5DE02C22B52F2E8006411D8 /* CoffeeCupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCupView.swift; sourceTree = "<group>"; };
 		B5DE02C42B52F3BD006411D8 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		B5DE02C62B53A770006411D8 /* WaveEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				B5DE02BE2B52EF8F006411D8 /* Chart.swift */,
 				B5DE02C22B52F2E8006411D8 /* CoffeeCupView.swift */,
 				B5DE02C42B52F3BD006411D8 /* LaunchView.swift */,
+				B5DE02C62B53A770006411D8 /* WaveEffect.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				B5DE02C52B52F3BD006411D8 /* LaunchView.swift in Sources */,
 				B5DE02922B52E5D3006411D8 /* NofeinApp.swift in Sources */,
 				B5DE02C32B52F2E8006411D8 /* CoffeeCupView.swift in Sources */,
+				B5DE02C72B53A770006411D8 /* WaveEffect.swift in Sources */,
 				B5DE02C12B52F1F7006411D8 /* Caffeine.swift in Sources */,
 				B5DE02BF2B52EF8F006411D8 /* Chart.swift in Sources */,
 			);
