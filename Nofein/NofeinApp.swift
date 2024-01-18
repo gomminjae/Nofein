@@ -11,7 +11,7 @@ import SwiftUI
 struct NofeinApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WaveEffect()
         }
     }
 }

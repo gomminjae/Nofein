@@ -47,14 +47,14 @@ struct WaveEffect: View {
     var body: some View {
         VStack {
             ZStack(alignment: .center) {
-                Rectangle()
-                    .fill(Color.gray.opacity(0.1))
-                    .frame(width: 400,height: 400)
+//                Rectangle()
+//                    .fill(Color.gray.opacity(0.1))
+//                    .frame(width: 400,height: 400)
                 Wave(offset: Angle(degrees: self.waveOffset.degrees), percent: percent / 100.0)
-                    .fill(Color.cyan)
+                    .fill(Color.blue)
                     .frame(width: 400,height: 440)
                 Wave(offset: Angle(degrees: self.waveOffset2.degrees), percent: percent / 100.0)
-                    .fill(Color.cyan)
+                    .fill(Color.blue)
                     .opacity(0.5)
                     .frame(width: 400, height: 440)
             }

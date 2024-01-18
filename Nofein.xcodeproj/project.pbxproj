@@ -19,6 +19,7 @@
 		B5DE02C32B52F2E8006411D8 /* CoffeeCupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C22B52F2E8006411D8 /* CoffeeCupView.swift */; };
 		B5DE02C52B52F3BD006411D8 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C42B52F3BD006411D8 /* LaunchView.swift */; };
 		B5DE02C72B53A770006411D8 /* WaveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C62B53A770006411D8 /* WaveEffect.swift */; };
+		B5DE02CA2B53C4AE006411D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DE02C92B53C4AE006411D8 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B5DE02C22B52F2E8006411D8 /* CoffeeCupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCupView.swift; sourceTree = "<group>"; };
 		B5DE02C42B52F3BD006411D8 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		B5DE02C62B53A770006411D8 /* WaveEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveEffect.swift; sourceTree = "<group>"; };
+		B5DE02C92B53C4AE006411D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		B5DE02BC2B52E9B5006411D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B5DE02C82B53C4A3006411D8 /* Home */,
 				B5DE02BE2B52EF8F006411D8 /* Chart.swift */,
 				B5DE02C22B52F2E8006411D8 /* CoffeeCupView.swift */,
 				B5DE02C42B52F3BD006411D8 /* LaunchView.swift */,
@@ -164,6 +167,14 @@
 				B5DE02C02B52F1F7006411D8 /* Caffeine.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B5DE02C82B53C4A3006411D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B5DE02C92B53C4AE006411D8 /* Home.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 				B5DE02C32B52F2E8006411D8 /* CoffeeCupView.swift in Sources */,
 				B5DE02C72B53A770006411D8 /* WaveEffect.swift in Sources */,
 				B5DE02C12B52F1F7006411D8 /* Caffeine.swift in Sources */,
+				B5DE02CA2B53C4AE006411D8 /* Home.swift in Sources */,
 				B5DE02BF2B52EF8F006411D8 /* Chart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
